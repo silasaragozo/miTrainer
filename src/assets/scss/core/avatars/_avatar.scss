@@ -1,0 +1,53 @@
+//
+// Avatar
+//
+
+// General styles
+
+.avatar {
+	color: $white;
+	background-color: $gray-500;
+	display: inline-flex;
+	font-size: 1rem;
+	border-radius: 50%;
+	height: 48px;
+	width: 48px;
+
+    img {
+    	width: 100%;
+		border-radius: 50%;
+		object-fit: cover !important;
+    }
+
+    + .avatar-content {
+    	display: inline-block;
+    	margin-left: .75rem;
+    }
+}
+.card-img-top-2 {
+    height: 100px !important;
+    object-fit: cover;
+    border-top-left-radius: calc(.375rem - 1px);
+    border-top-right-radius: calc(.375rem - 1px);
+}
+// Avatar size variations
+.avatar-xx {
+	width: 88px;
+	height: 88px;
+	font-size: $font-size-sm;
+	object-fit: cover !important;
+}
+
+.avatar-lg {
+	width: 58px;
+	height: 58px;
+	font-size: $font-size-sm;
+	object-fit: cover !important;
+}
+
+.avatar-sm {
+	width: 36px;
+	height: 36px;
+	font-size: $font-size-sm;
+	object-fit: cover !important;
+}
